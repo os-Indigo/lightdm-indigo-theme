@@ -1,9 +1,6 @@
 const HTML_login_btn = document.querySelector('#login-btn')
 const HTML_password_fied = document.querySelector('#password')
 
-HTML_login_btn.addEventListener('click', login)
-HTML_login_btn.addEventListener('submit', login)
-
 const login = () => {
   window.start_authentication(user.name)
   console.log(user.name)
@@ -35,3 +32,6 @@ window.authentication_complete = () => {
     show_message('Error', 'error')
   }
 }
+
+HTML_login_btn.addEventListener('click', login)
+HTML_login_btn.addEventListener('submit', login)
