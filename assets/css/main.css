@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+  background: url(/Indigo/storage/wallpapers/wallpaper.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.desktop {
+  position: absolute;
+  top: 0;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+}

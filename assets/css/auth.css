@@ -1,0 +1,15 @@
+.auth {
+  position: absolute !important;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mdl-textfield {
+  width: 70% !important;
+}
+
+.profile {
+  width: 50%;
+  border-radius: 50%;
+}

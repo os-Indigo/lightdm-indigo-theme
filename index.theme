@@ -1,0 +1,6 @@
+[theme]
+name=lightdm-indigo-theme
+description=Indigo Theme
+engine=lightdm-webkit-greeter
+url=index.html
+session=gnome
